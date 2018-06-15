@@ -11,6 +11,11 @@
     <script src="Bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.css" />
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
 
   </head>
   <body id="page-top">
@@ -21,10 +26,21 @@
         Online Shop
       </a>
       <!-- Search Bar -->
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <form class="form-inline" role="search" id="navBarSearchForm">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
       </form>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </li>
+      </ul>
+
     </nav>
   </body>
 </html>
